@@ -1,0 +1,5 @@
+JDBC é uma camada de abstração que existe entre o nosso programa Java e o driver do banco de dados que estamos utilizando, o JDBC serve para "padronizar" os métodos e chamadas que fazemos ao banco de dados independente do banco que esteja sendo utilizado, bastando apenas utilizar o driver correto.
+
+JPA é um conjunto de especificações que adiciona ainda mais uma camada de abstração. Uma implementação JPA permite ao programador acessar e manipular tabelas de bancos de dados relacionais como se estivesse manipulando objetos Java puro.
+
+Hibernate é uma das implementações da especificação JPA, sendo a primeira e devido a isso se tornou a mais famosa.
