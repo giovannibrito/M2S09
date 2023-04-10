@@ -1,0 +1,6 @@
+Connection conn = DriverManager.getConnection(url,user,password);
+Statemente stm = conn.createStatement();
+stm.execute("INSERT INTO PRODUTO (nome,descricao,preco) VALUES ('Cadeira', 'Cadeira com design italiano', '550')");
+conn.commit();
+stm.close();
+conn.close();
